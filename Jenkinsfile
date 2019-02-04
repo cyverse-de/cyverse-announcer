@@ -9,7 +9,7 @@ timestamps {
         steps {
             echo "Branch is ${env.BRANCH_NAME}..."
 
-            withNPM(npmrcConfig: 'my-custom-npmrc') {
+            withNPM(npmrcConfig: 'npmrc') {
                 echo "Performing npm build..."
                 sh 'npm install'
                 sh 'npm publish'
