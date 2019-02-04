@@ -1,7 +1,7 @@
 {
-  "name": "cyverse-announcer",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@cyverse-de/cyverse-announcer",
+  "version": "0.1.1",
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^3.9.1",
     "@material-ui/icons": "^3.0.2",
@@ -32,5 +32,9 @@
     "@storybook/addon-links": "^4.1.7",
     "@storybook/addons": "^4.1.7",
     "@storybook/react": "^4.1.7"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "sri2k1us",
+  "license": "ISC"
 }
